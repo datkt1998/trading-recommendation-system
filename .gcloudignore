@@ -1,0 +1,73 @@
+# This file specifies files and directories that are *not* uploaded to Google Cloud.
+# For more information, see `gcloud topic gcloudignore`.
+
+# Include the default .gitignore file patterns
+# This will automatically include all rules from your .gitignore
+.gitignore
+
+# Python virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+*.so
+
+# Testing and coverage reports
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+coverage.xml
+.coverage
+.coverage.*
+
+# Editor and IDE settings
+.idea/
+.vscode/
+.DS_Store
+**/.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Deployment-related
+.gcloudignore
+*.zip
+*.tar.gz
+*.bak
+
+# Dataset and large files (adjust as needed)
+data/
+*.csv
+*.json
+*.db
+*.sqlite3
+db.sqlite3
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Cloud-specific settings
+# These are automatically generated and may not need to be deployed.
+.cloudconfig/
+.gcloud/
+.gcloudignore
